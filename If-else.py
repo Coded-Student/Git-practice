@@ -1,2 +1,10 @@
 username = input("Enter username: ")
-print(f"Hello, {username}")
+
+if username == "":
+    print("Please enter a username.")
+    print("")
+    username = input("Enter username: ")
+
+
+else:
+    print(f"Hello, {username}")
